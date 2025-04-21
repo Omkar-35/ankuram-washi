@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ankuram-washi/static/css/main.59c52de6.css",
+    "main.css": "/ankuram-washi/static/css/main.2988e59e.css",
     "main.js": "/ankuram-washi/static/js/main.594c0129.js",
     "static/media/fa-solid-900.ttf": "/ankuram-washi/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/ankuram-washi/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -11,11 +11,11 @@
     "static/media/fa-v4compatibility.ttf": "/ankuram-washi/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/ankuram-washi/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/ankuram-washi/index.html",
-    "main.59c52de6.css.map": "/ankuram-washi/static/css/main.59c52de6.css.map",
+    "main.2988e59e.css.map": "/ankuram-washi/static/css/main.2988e59e.css.map",
     "main.594c0129.js.map": "/ankuram-washi/static/js/main.594c0129.js.map"
   },
   "entrypoints": [
-    "static/css/main.59c52de6.css",
+    "static/css/main.2988e59e.css",
     "static/js/main.594c0129.js"
   ]
 }
