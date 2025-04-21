@@ -1,0 +1,112 @@
+.carousel-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.carousel-card {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  height: 220px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.carousel-image {
+  height: 160px; /* fixed height */
+  width: 140px;  /* fixed width */
+  object-fit: cover; /* crop to fill container */
+  border-radius: 8px;
+  margin-right: 15px;
+  flex-shrink: 0; /* prevent it from shrinking */
+}
+
+
+.carousel-info {
+  text-align: left;
+}
+
+.carousel-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.designation {
+  font-style: italic;
+  color: #777;
+  margin: 5px 0;
+}
+
+.bio {
+  margin-top: 10px;
+  color: #444;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Ensure content is centered */
+    width: 100%; /* Ensure it doesn't shrink weirdly */
+  }
+
+  .carousel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    margin-left: -6px;
+    width: 90%; /* Prevent overflow on small screens */
+    max-width: 320px; /* Optional: to avoid stretching */
+  }
+
+  .carousel-image {
+    width: 120px;
+    height: 140px;
+    object-fit: cover;
+    margin-right: 0;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }  
+
+  .carousel-info {
+    text-align: center;
+  }
+
+  .carousel-info h3 {
+    font-size: 20px;
+  }
+
+  .bio {
+    font-size: 15px;
+  }
+}

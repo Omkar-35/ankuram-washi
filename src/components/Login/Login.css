@@ -1,0 +1,93 @@
+/* Set a background with a gradient */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f7d050, #bbd0d7); /* Same as signup */
+    height: 100vh;
+}
+
+/* Center the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the login form container (card) */
+.login-form {
+    border: 1px solid grey;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #ffffff !important;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Same subtle depth */
+}
+
+/* Header text */
+h2 {
+    font-size: 25px !important;
+    text-align: center;
+    margin-bottom: 20px;
+    /*color: #007bff;*/
+}
+
+/* "Don't have an account?" text */
+.text-center span {
+    font-size: 18px;
+}
+
+/* Sign up button inside login */
+.text-center button {
+    font-size: 20px;
+    padding: 0;
+    color: #007bff;
+    background: none;
+    border: none;
+    text-decoration: underline;
+}
+
+/* Field labels and buttons */
+label, input, button, select {
+    font-size: 20px;
+}
+
+/* Input field styles */
+input {
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Placeholder styling */
+input::placeholder {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+/* Form spacing */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+/* Login button */
+button[type="submit"] {
+    font-size: 18px;
+    padding: 12px 25px;
+    background-color: hsl(47, 87%, 51%) !important;
+    color: #121212 !important;
+    border-radius: 5px;
+}
+
+/* Container for login link */
+.text-center {
+    margin-top: 15px;
+}

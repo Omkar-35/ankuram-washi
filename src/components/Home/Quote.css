@@ -1,0 +1,58 @@
+.quote-banner {
+  padding: 40px 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Georgia', serif;
+  max-width: 100%;
+  margin-top: 0 !important;
+  margin-bottom: 40px;  /* adds spacing before next section */
+  background-color: white; /* ensures white background */
+  box-sizing: border-box;
+}
+
+.quote-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.quote-text {
+  text-align: left;
+  font-size: 18px;
+  color: #555;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-style: italic;
+  padding: 0 20px;
+}
+
+.quote-author {
+  font-size: 15px;
+  color: #666;
+  font-style: italic;
+  margin-top: 14px;
+  text-align: right;
+  font-weight: 900;
+  padding-right: 150px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .quote-text {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .quote-author {
+    font-size: 14px;
+    padding-right: 20px;
+    text-align: right;
+  }
+
+  .quote-title {
+    font-size: 20px;
+  }
+}
