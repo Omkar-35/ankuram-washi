@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ankuram-washi/static/css/main.2988e59e.css",
-    "main.js": "/ankuram-washi/static/js/main.db8414ad.js",
+    "main.js": "/ankuram-washi/static/js/main.732be569.js",
     "static/media/fa-solid-900.ttf": "/ankuram-washi/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/ankuram-washi/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/fa-solid-900.woff2": "/ankuram-washi/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/ankuram-washi/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/ankuram-washi/index.html",
     "main.2988e59e.css.map": "/ankuram-washi/static/css/main.2988e59e.css.map",
-    "main.db8414ad.js.map": "/ankuram-washi/static/js/main.db8414ad.js.map"
+    "main.732be569.js.map": "/ankuram-washi/static/js/main.732be569.js.map"
   },
   "entrypoints": [
     "static/css/main.2988e59e.css",
-    "static/js/main.db8414ad.js"
+    "static/js/main.732be569.js"
   ]
 }
